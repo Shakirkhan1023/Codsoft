@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+</head>
+<body>
+
+  <header class="showPage">
+    <h1>ABBOTTABAD – The City of Pines</h1>
+    <p>All about this beautiful city in Pakistan</p>
+    <button type="button" class="btn-1" id="readAboutButton">Read About</button>
+  </header>
+
+  <section id="section-1">
+    <h1>About Abbottabad</h1>
+    <p>Abbottabad is located in the Orash valley, halfway between Mount Sarban and Mount Shimla.
+
+      It is located around 120 kilometres (75 miles) north of Islamabad-Rawalpindi and 150 kilometres (93 miles) east of Peshawar.
+      
+      To connect Abbottabad with Islamabad the National Highway Authority (NHA) has opened the road.
+      
+      It is famous for quality education having famous education institutes. Pakistan’s largest military academy called Kakul is also here in Abbottabad.
+      
+      It is a quiet neighbourhood place with a high literacy rate and low crime rates. Hindko is the predominant language here.Thousands of people come to Abbottabad from all across Pakistan to enjoy the lovely weather. It is one of the most beautiful cities in the world, and it acts as a gateway to Naran/Kaghan and Pakistan’s natural beauty.
+
+      The weather of Abbottabad is pleasant all over the year as in the range between 25 – -10°C. 
+      
+      Snowfall is common in Abbottabad in December and January, while significant rainfall is common during the monsoon season, which runs from July to September.
+      
+      Abbottabad might be an excellent holiday location for families during the winter months. It is also famous for summer resorts.</p>
+  </section>
+
+  <section id="section-2">
+    <h1>Famous Tourist Attractions in Abbottabbad</h1>
+    <div class="flex-columns">
+      <p><strong>NATHIA GALI</strong>
+        At the centre of the Galiyat range in Khyber Pakhtunkhwa Pakistan, a breath-taking famous hill station named Nathia Gali is situated. It is 86 km away from Islamabad.
+        
+        It is known as heaven on earth. People attract to Nathia Gali due to its pleasant weather, and natural beautiful scenes.
+        
+        As to compare to its neighbouring areas Nathia Gali is much cooler due to its high altitude.</p>
+        <p><strong>SAJIKOT WATERFALL</strong>
+          In Abbottabad District, Havelian Tehsil, about 47 kilometres a wonderful waterfall named Sajikot Waterfall is located.
+          
+          The beautiful green grazing meadows and pure water streams that surround the spectacular waterfall add to its attractiveness.
+          
+          It is popular due to its peaceful atmosphere and is considered one of the most beautiful waterfalls in Pakistan.</p>
+          <p><strong>MUSHKPURI TOP</strong>
+            In the Galiyat region the Mushkpori top is the second highest mountain range and is of 9200ft height.
+            
+            It is located above the DungaGali and you need at least 3 hours to reach at the top of the mountain to have a breath-taking view.
+            
+            From the top of the mountain, you can see Murree, Bagh District of Azad Kashmir, Circle Bakote and Jhelum River.
+            
+            You can reach at the top either by trekking from Nathiagali or from track of Dungagali.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright 2023. All rights reserved.&copy;</p>
+  </footer>
+  <script>
+    // Get a reference to the "Read About" button
+    const readAboutButton = document.getElementById('readAboutButton');
+  
+    // Get a reference to the "About Abbottabad" section
+    const aboutSection = document.getElementById('section-1');
+  
+    // Add a click event listener to the button
+    readAboutButton.addEventListener('click', () => {
+      // Scroll to the "About Abbottabad" section smoothly
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+  
+</body>
+</html>
