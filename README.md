@@ -1,2 +1,2 @@
 # Codsoft
- Web Internship Level 1 Tasks
+ Web Internship Tasks
